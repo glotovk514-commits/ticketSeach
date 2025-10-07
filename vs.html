@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Билеты на поезд Москва - Санкт-Петербург</title>
+    <link rel="stylesheet" href="rezult.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Билеты на поезд Москва - Санкт-Петербург</h1>
+
+            <div class="search-form">
+                <div class="form-group">
+                    <label for="from">Откуда</label>
+                    <input type="text" id="from" value="Москва">
+                </div>
+                <div class="form-group">
+                    <label for="to">Куда</label>
+                    <input type="text" id="to" value="Санкт-Петербург">
+                </div>
+                <div class="form-group">
+                    <label for="date">Дата</label>
+                    <input type="date" id="date" value="2024-10-04">
+                </div>
+                <button id="search-btn" class="search-btn">Найти билеты</button>
+            </div>
+
+            <div class="filters">
+                <div class="filter-item active">Лучшее</div>
+                <div class="filter-item">С питанием</div>
+                <div class="filter-item">С животными</div>
+                <div class="filter-item">Доп. багаж</div>
+                <div class="filter-item">Сапсан</div>
+                <div class="filter-item">Ласточка</div>
+                <div class="filter-item">Фирменные</div>
+                <div class="filter-item">Двухэтажные</div>
+            </div>
+        </header>
+
+        <main>
+            <div class="results-header">
+                <h2 id="results-count">Найдено 0 поездов</h2>
+                <div class="loading" id="loading" style="display: none;">
+                    <div class="spinner"></div>
+                    <span>Ищем билеты...</span>
+                </div>
+            </div>
+
+            <div class="train-list" id="train-list">
+                <!-- Поезда будут загружаться динамически -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Корзина -->
+    <div class="cart-container">
+        <div class="cart">
+            <h2>Корзина</h2>
+            <div class="cart-items">
+                <!-- Элементы корзины будут добавляться динамически -->
+            </div>
+            <div class="cart-total">
+                <div class="total-label">Итого:</div>
+                <div class="total-price">0 ₽</div>
+            </div>
+            <button class="checkout-btn">Перейти к оформлению</button>
+        </div>
+    </div>
+
+    <script src="rezult.js"></script>
+</body>
+</html>

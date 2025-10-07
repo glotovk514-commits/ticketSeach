@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Новости железной дороги</title>
+    <link rel="stylesheet" href="novostu.css">
+</head>
+
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Ticket Search</h1>
+                    <p>Новости железнодорожной отрасли</p>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="novostu.html">Новости</a></li>
+                    <li><a href="o_nas.html">О нас</a></li>
+                    <li><a href="support.html">Помощь</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn-login">Войти</button>
+                <button class="btn-register">Подписаться</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="search-section">
+    <div class="container">
+
+        <div class="search-form">
+            <div class="form-group">
+                <label>Откуда</label>
+                <input type="text" placeholder="Город или станция">
+            </div>
+            <div class="form-group">
+                <label>Куда</label>
+                <input type="text" placeholder="Город или станция">
+            </div>
+            <div class="form-group">
+                <label>Дата</label>
+                <input type="date">
+            </div>
+            <a href="vs.html"><button class="search-btn">Найти билеты</button></a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Последние новости -->
+        <section class="latest-news">
+            <div class="container">
+                <div class="news-header">
+                    <h2 class="section-title">Последние новости</h2>
+                </div>
+
+                <div class="news-grid">
+                    <article class="news-card">
+                        <a href="card_novostu1.html">
+                        <div class="news-image">
+                            <img src="https://www.mos.ru/upload/newsfeed/news/8ccd1ba7b2507c18ed227866858c3218/B-1UgQMx6uBd.jpg" alt="Реконструкция вокзала">
+                            <div class="news-badge">Инфраструктура</div>
+                        </div>
+                        <div class="news-content">
+                            <h3>Реконструкция Ленинградского вокзала в Москве</h3>
+                            <p class="news-excerpt">Историческую часть здания вокзала сохранят и отремонтируют. Ключевые изменения коснутся внутреннего пространства — вокзал станет современным и удобным для всех категорий пассажиров.</p>
+                            <div class="news-meta">
+                                <span class="news-date"><i class="far fa-calendar"></i> 12 марта 2025</span>
+                                <span class="news-views"><i class="far fa-eye"></i> 1.2K</span>
+                            </div>
+                            <a href="card_novostu1.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        </a>
+                    </article>
+
+                    <article class="news-card">
+                         <a href="card_novostu2.html">
+                        <div class="news-image">
+                            <img src="https://rusbiletnapoezd.ru/tickets/uploads/filemanager/New_security_system_has_reduced_the_number_of_emergencies_on_the_railway_1.jpg" alt="Система безопасности">
+                            <div class="news-badge">Безопасность</div>
+                        </div>
+                        <div class="news-content">
+                            <h3>Новая система безопасности на железных дорогах</h3>
+                            <p class="news-excerpt">Российские железные дороги вступили в новую эру безопасности благодаря внедрению передовых технологических решений.
+                                За последний год количество чрезвычайных происшествий на железнодорожном транспорте сократилось на 40%, что стало результатом масштабной модернизации систем контроля и мониторинга.</p>
+                            <div class="news-meta">
+                                <span class="news-date"><i class="far fa-calendar"></i> 11 декабря 2024</span>
+                                <span class="news-views"><i class="far fa-eye"></i> 956</span>
+                            </div>
+                            <a href="card_novostu2.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        </a>
+                    </article>
+
+                    <article class="news-card">
+                        <a href="card_novostu3.html">
+                            <div class="news-image">
+                                <img src="https://zdmira.com/images/News-Images/2025/2025-02/n2503088.jpg#joomlaImage://local-images/News-Images/2025/2025-02/n2503088.jpg?width=1224&height=690" alt="Международные перевозки">
+                                <div class="news-badge">Международные</div>
+                            </div>
+                            <div class="news-content">
+                                <h3>Увеличение объемов международных грузоперевозок</h3>
+                                <p class="news-excerpt">В рамках развития коридора Россия — Монголия — Китай в 2024 г. завершено удлинение приемоотправочных путей на приграничных станциях Монголии и России, что позволило увеличить провозную способность пункта пропуска Наушки — Сухэ-Батор до 15 млн т в год. </p>
+                                <div class="news-meta">
+                                    <span class="news-date"><i class="far fa-calendar"></i> 10 декабря 2024</span>
+                                    <span class="news-views"><i class="far fa-eye"></i> 1.5K</span>
+                                </div>
+                                <a href="card_novostu3.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="news-card">
+                        <a href="card_novostu4.html">
+                            <div class="news-image">
+                                <img src="https://rzddigital.ru/upload/sprint.editor/5af/v3es0cnxqmqot2isccth9cm1tt0rwqpz.jpg" alt="Цифровизация">
+                                <div class="news-badge">Технологии</div>
+                            </div>
+                            <div class="news-content">
+                                <h3>Мультиагентный ИИ в диспетчерском управлении движением поездов</h3>
+                                <p class="news-excerpt">Интеллектуальная система диспетчерского управления пропускной способностью и перевозочным процессом CTMS (Capacity and Traffic Management System) должна стать ключевым элементом...</p>
+                                <div class="news-meta">
+                                    <span class="news-date"><i class="far fa-calendar"></i> 9 декабря 2024</span>
+                                    <span class="news-views"><i class="far fa-eye"></i> 2.1K</span>
+                                </div>
+                                <a href="card_novostu4.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="news-card">
+                        <a href="card_novostu5.html">
+                            <div class="news-image">
+                                <img src="data:image/jpeg;base64,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" alt="Новый подвижной состав">
+                                <div class="news-badge">Технологии</div>
+                            </div>
+                            <div class="news-content">
+                                <h3>Поступление нового подвижного состава</h3>
+                                <p class="news-excerpt">Российские железные дороги" (РЖД) до конца текущего года запустят несколько новых пассажирских вагонов...</p>
+                                <div class="news-meta">
+                                    <span class="news-date"><i class="far fa-calendar"></i> 8 декабря 2024</span>
+                                    <span class="news-views"><i class="far fa-eye"></i> 1.8K</span>
+                                </div>
+                                <a href="card_novostu5.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="news-card">
+                        <a href="card_novostu6.html">
+                            <div class="news-image">
+                                <img src="https://iy.kommersant.ru/Issues.photo/REGIONS/ROSTOV_Online/2025/06/19/KRD_001497_134559_1_t245_165419.webp" alt="Развитие станций">
+                                <div class="news-badge">Инфраструктура</div>
+                            </div>
+                            <div class="news-content">
+                                <h3>Развитие пригородных железнодорожных станций</h3>
+                                <p class="news-excerpt">В Ростовской области увеличена частота движения пригородных поездов, запущены новые маршруты электричек, частично обновлен подвижной состав...</p>
+                                <div class="news-meta">
+                                    <span class="news-date"><i class="far fa-calendar"></i> 7 декабря 2024</span>
+                                    <span class="news-views"><i class="far fa-eye"></i> 1.1K</span>
+                                </div>
+                                <a href="card_novostu6.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>О компании</h3>
+                    <ul>
+                        <li><a href="o_nas.html">О нас</a></li>
+                        <li><a href="o_nas.html#info">Контакты</a></li>
+                        <li><a href="o_nas.html#team">Наша команда</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Информация</h3>
+                    <ul>
+                        <li><a href="#">Правила покупки</a></li>
+                        <li><a href="#">Возврат билетов</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Пользовательское соглашение</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Помощь</h3>
+                    <ul>
+                        <li><a href="support.html">Частые вопросы</a></li>
+                        <li><a href="#">Инструкции</a></li>
+                        <li><a href="support.html">Обратная связь</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p>8 (123) 456-78-90</p>
+                    <p>support@tickets-online.ru</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Сервис по поиску ж/д билетов. Все права защищены..</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
